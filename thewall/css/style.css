@@ -1,0 +1,109 @@
+body{
+background-image: url(wall_stone_brick_background_texture_50784_2560x1600.jpg);
+}
+#nav{
+    border-width: 1px;
+    background-color:black;
+    text-align:center;
+    margin: 0 auto; left:0px; right:0px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-style: solid;
+
+}
+.knopjes {
+    overflow: hidden;
+	display: inline;
+    position: relative;
+    padding: 0px;
+}
+
+.knopjes li{
+    margin: 0 auto;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+	list-style-type: none;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.knopjes li a{
+    text-decoration: none;
+    color: white;
+    font-family:inherit;
+}
+.images{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.inhoud{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+    background-color:antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width:1px;
+}
+
+label{
+font-family:inherit;
+display: inline-block;
+width: 150px;
+margin-top: 20px;
+margin-left: 25%;
+}
+
+@media screen and (max-width: 640px) {
+    .knopjes li{
+    margin: 0 auto;
+    font-size: 10px;
+    display: inline;
+    position: relative;
+	list-style-type: none;
+    padding-left: 8px;
+    padding-right:8px;
+}
+    .inhoud{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+    min-width: 300px;
+    background-color:antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width:1px;
+
+}
+    .images{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:100%;
+    max-width: 300px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+    label{
+font-family:inherit;
+display: inline-block;
+width: 80px;
+margin-top: 15px;
+margin-left: 20%;
+        
+
+
+}
+}
